@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Выборка столбцов</h3>
+    {% for i in drinks %}
+    <ul>
+        <li><b>Name</b> {{ i.name }} <b>Value</b> {{ i.value }} <b>Country</b> {{ i.country }}</li>
+    </ul>
+    {% endfor %}
+</body>
+
+</html>
